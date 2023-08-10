@@ -23,7 +23,7 @@ describe('Проверка по чеклисту', () => {
             .parent().find('input.MuiOutlinedInput-input.MuiInputBase-input.MuiInputBase-inputSizeSmall.MuiInputBase-inputAdornedStart.css-162edyi') 
             .click({force: true}).clear({force: true}); //очистить поле
     });
-//работа с данными  (вроде бы правильно, но баг на редактировании)
+//работа с данными
 //редактирование назв. МК
          //cy.get(':nth-child(2) > .MuiAccordionSummary-root > .MuiAccordionSummary-content > .MuiButtonBase-root > [data-testid="MoreVertIcon"]').click({force: true}); //меню
          //cy.get('[tabindex="0"] > .MuiListItemText-root > .MuiTypography-root').click({force: true}); //редактрировать
